@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Shop: NextPage = () => (
   <div>
-    <div className="flex gap-3 mx-5 mt-5 lg:mx-24 lg:mt-16 lg:mb-10">
+    <div className="flex gap-3 mr-4 mt-5 lg:mx-24 lg:mt-16 lg:mb-10">
       <Link className="text-gray-500" href={"/"}>
         Home
       </Link>
@@ -19,7 +19,7 @@ const Shop: NextPage = () => (
 
     <section className="my-10 px-5">
       <h2 className="text-2xl font-semibold">Our Products</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-5">
+      <div className="grid grid-cols-1 mr-6 ml-6 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-5">
         {/* <Image src="/chair1.png" alt="Chair" width={312} height={377} /> */}
         <ProductCard title="Library Stool Chair" price="20" image="/chair1.png" />
         <ProductCard title="Library Stool Chair" price="20" image="/chair2.png" />

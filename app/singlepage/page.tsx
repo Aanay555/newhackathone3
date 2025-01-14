@@ -15,9 +15,9 @@ export default function ProductPage() {
 
       {/* Main Content */}
       <main className="container mx-auto py-10 px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-2 gap-10 items-center">
           {/* Product Image */}
-          <div className="bg-white p-4 shadow rounded">
+          <div className="bg-white p-4  shadow rounded">
             <Image
               src="/pink-chair.png"
               alt="Library Stool Chair"

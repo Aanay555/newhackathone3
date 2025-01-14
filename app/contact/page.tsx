@@ -73,7 +73,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="bg-white p-6 sm:p-8 w-full lg:w-auto rounded-lg shadow-md">
+        <div className="bg-white p-6 sm:p-8 mb-6 w-full lg:w-auto rounded-lg shadow-md">
           <form action="#" method="POST">
             <div className="mb-4">
               <label
