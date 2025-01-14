@@ -10,7 +10,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["500", "600"] });
 const Page = () => {
   return (
     <div className="max-w-screen-xl mx-auto mt-24 px-4 sm:px-6">
-       <div className="flex gap-3 mx-5 mt-5 lg:mx-24 lg:mt-16 lg:mb-10">
+      <div className="flex gap-3 mx-5 mt-5 lg:mx-24 lg:mt-16 lg:mb-10">
         <Link className="text-gray-500" href={"/"}>
           Home
         </Link>
@@ -21,16 +21,16 @@ const Page = () => {
         Get In Touch With Us
       </h1>
 
-      <p className="text-[16px] text-[#9F9F9F] font-normal text-center mt-[30px] sm:w-full sm:text-sm">
+      <p className="text-[16px] text-[#9F9F9F] font-normal text-center mt-[30px] sm:w-full sm:text-sm px-4 sm:px-0">
         For More Information About Our Product & Services. Please Feel Free To
         Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
         Hesitate!
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-[60px]">
-        <div className="flex flex-col space-y-8 px-6 sm:px-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-[60px]">
+        <div className="flex flex-col space-y-8 px-4 sm:px-6 lg:px-10">
           <div className="flex items-start space-x-4">
-            <FaMapMarkerAlt className="text-black h-[27.59px] mt-1" />
+            <FaMapMarkerAlt className="text-black h-6 mt-1" />
             <div>
               <h2
                 className={`${poppins.className} text-[20px] sm:text-[24px] font-medium`}
@@ -44,7 +44,7 @@ const Page = () => {
           </div>
 
           <div className="flex items-start space-x-4">
-            <FaPhone className="text-black h-[27.59px] mt-1" />
+            <FaPhone className="text-black h-6 mt-1" />
             <div>
               <h2
                 className={`${poppins.className} text-[20px] sm:text-[24px] font-medium`}
@@ -58,7 +58,7 @@ const Page = () => {
           </div>
 
           <div className="flex items-start space-x-4">
-            <GoClockFill className="text-black h-[27.59px] mt-1" />
+            <GoClockFill className="text-black h-6 mt-1" />
             <div>
               <h2
                 className={`${poppins.className} text-[20px] sm:text-[24px] font-medium`}
@@ -73,7 +73,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="bg-white p-8 w-full sm:w-[635px]">
+        <div className="bg-white p-6 sm:p-8 w-full lg:w-auto rounded-lg shadow-md">
           <form action="#" method="POST">
             <div className="mb-4">
               <label
@@ -87,12 +87,12 @@ const Page = () => {
                 id="name"
                 name="name"
                 placeholder="Abc"
-                className="w-full sm:w-[528.75px] h-[75px] p-6 border border-[#9F9F9F] rounded-[10px] mt-5"
+                className="w-full h-[55px] p-4 border border-[#9F9F9F] rounded-[10px] mt-2"
                 required
               />
             </div>
 
-            <div className="mb-4 mt-8">
+            <div className="mb-4">
               <label
                 htmlFor="email"
                 className={`${poppins.className} text-[16px] sm:text-[18px] font-medium`}
@@ -104,12 +104,12 @@ const Page = () => {
                 id="email"
                 name="email"
                 placeholder="Abc@def.com"
-                className="w-full sm:w-[528.75px] h-[75px] p-6 border border-[#9F9F9F] rounded-[10px] mt-5"
+                className="w-full h-[55px] p-4 border border-[#9F9F9F] rounded-[10px] mt-2"
                 required
               />
             </div>
 
-            <div className="mb-4 mt-8">
+            <div className="mb-4">
               <label
                 htmlFor="subject"
                 className={`${poppins.className} text-[16px] sm:text-[18px] font-medium`}
@@ -121,11 +121,11 @@ const Page = () => {
                 id="subject"
                 name="subject"
                 placeholder="This is an optional"
-                className="w-full sm:w-[528.75px] h-[75px] p-6 border border-[#9F9F9F] rounded-[10px] mt-5"
+                className="w-full h-[55px] p-4 border border-[#9F9F9F] rounded-[10px] mt-2"
               />
             </div>
 
-            <div className="mb-8 mt-8">
+            <div className="mb-6">
               <label
                 htmlFor="message"
                 className={`${poppins.className} text-[16px] sm:text-[18px] font-medium`}
@@ -136,7 +136,7 @@ const Page = () => {
                 id="message"
                 name="message"
                 placeholder="Hi! I’d like to ask about"
-                className="w-full sm:w-[527px] h-[120px] p-6 border border-[#9F9F9F] rounded-[10px] mt-5"
+                className="w-full h-[120px] p-4 border border-[#9F9F9F] rounded-[10px] mt-2"
                 rows={4}
                 required
               ></textarea>
@@ -145,7 +145,7 @@ const Page = () => {
             <div>
               <button
                 type="submit"
-                className="w-full sm:w-[237px] h-[55px] bg-[#029FAE] border border-[#B88E2F] rounded-[5px] text-white py-3"
+                className="w-full h-[45px] bg-[#029FAE] border border-[#B88E2F] rounded-[5px] text-white py-2"
               >
                 Submit
               </button>
