@@ -51,13 +51,14 @@ export default function ProductPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-5">
-            <Image
+            {/* <Image
               src="/chair1.png"
               alt="Chair"
               width={312}
               height={377}
               className="rounded"
-            />
+            /> */}
+             <ProductCard title="Library Stool Chair" price="20" image="/chair.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair2.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair3.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair4.png" />
