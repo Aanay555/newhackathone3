@@ -58,7 +58,7 @@ export default function ProductPage() {
               height={377}
               className="rounded"
             /> */}
-             <ProductCard title="Library Stool Chair" price="20" image="/chair.png" />
+             <ProductCard title="Library Stool Chair" price="20" image="/chair1.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair2.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair3.png" />
             <ProductCard title="Library Stool Chair" price="20" image="/chair4.png" />
